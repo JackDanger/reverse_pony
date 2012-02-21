@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6126576214F358AB00EEFE03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6126576114F358AB00EEFE03 /* Cocoa.framework */; };
+		6126576414F358AB00EEFE03 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6126576314F358AB00EEFE03 /* ScreenSaver.framework */; };
+		6126576E14F358AB00EEFE03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6126576C14F358AB00EEFE03 /* InfoPlist.strings */; };
+		6126577214F358AB00EEFE03 /* ReversePonyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6126577114F358AB00EEFE03 /* ReversePonyView.m */; };
+		6126578914F3738000EEFE03 /* ScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6126578814F3738000EEFE03 /* ScreenShot.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6126575E14F358AB00EEFE03 /* ReversePony.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReversePony.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		6126576114F358AB00EEFE03 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6126576314F358AB00EEFE03 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		6126576614F358AB00EEFE03 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6126576714F358AB00EEFE03 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6126576814F358AB00EEFE03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6126576B14F358AB00EEFE03 /* ReversePony-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReversePony-Info.plist"; sourceTree = "<group>"; };
+		6126576D14F358AB00EEFE03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6126576F14F358AB00EEFE03 /* ReversePony-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReversePony-Prefix.pch"; sourceTree = "<group>"; };
+		6126577014F358AB00EEFE03 /* ReversePonyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReversePonyView.h; sourceTree = "<group>"; };
+		6126577114F358AB00EEFE03 /* ReversePonyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReversePonyView.m; sourceTree = "<group>"; };
+		6126578814F3738000EEFE03 /* ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6126575914F358AB00EEFE03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6126576214F358AB00EEFE03 /* Cocoa.framework in Frameworks */,
+				6126576414F358AB00EEFE03 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6126575114F358AB00EEFE03 = {
+			isa = PBXGroup;
+			children = (
+				6126576914F358AB00EEFE03 /* ReversePony */,
+				6126576014F358AB00EEFE03 /* Frameworks */,
+				6126575F14F358AB00EEFE03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6126575F14F358AB00EEFE03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6126575E14F358AB00EEFE03 /* ReversePony.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6126576014F358AB00EEFE03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6126576114F358AB00EEFE03 /* Cocoa.framework */,
+				6126576314F358AB00EEFE03 /* ScreenSaver.framework */,
+				6126576514F358AB00EEFE03 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6126576514F358AB00EEFE03 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6126576614F358AB00EEFE03 /* AppKit.framework */,
+				6126576714F358AB00EEFE03 /* CoreData.framework */,
+				6126576814F358AB00EEFE03 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6126576914F358AB00EEFE03 /* ReversePony */ = {
+			isa = PBXGroup;
+			children = (
+				6126578814F3738000EEFE03 /* ScreenShot.png */,
+				6126577014F358AB00EEFE03 /* ReversePonyView.h */,
+				6126577114F358AB00EEFE03 /* ReversePonyView.m */,
+				6126576A14F358AB00EEFE03 /* Supporting Files */,
+			);
+			path = ReversePony;
+			sourceTree = "<group>";
+		};
+		6126576A14F358AB00EEFE03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6126576B14F358AB00EEFE03 /* ReversePony-Info.plist */,
+				6126576C14F358AB00EEFE03 /* InfoPlist.strings */,
+				6126576F14F358AB00EEFE03 /* ReversePony-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6126575A14F358AB00EEFE03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6126575D14F358AB00EEFE03 /* ReversePony */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6126577514F358AB00EEFE03 /* Build configuration list for PBXNativeTarget "ReversePony" */;
+			buildPhases = (
+				6126575814F358AB00EEFE03 /* Sources */,
+				6126575914F358AB00EEFE03 /* Frameworks */,
+				6126575A14F358AB00EEFE03 /* Headers */,
+				6126575B14F358AB00EEFE03 /* Resources */,
+				6126575C14F358AB00EEFE03 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReversePony;
+			productName = ReversePony;
+			productReference = 6126575E14F358AB00EEFE03 /* ReversePony.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6126575314F358AB00EEFE03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6126575614F358AB00EEFE03 /* Build configuration list for PBXProject "ReversePony" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6126575114F358AB00EEFE03;
+			productRefGroup = 6126575F14F358AB00EEFE03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6126575D14F358AB00EEFE03 /* ReversePony */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6126575B14F358AB00EEFE03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6126576E14F358AB00EEFE03 /* InfoPlist.strings in Resources */,
+				6126578914F3738000EEFE03 /* ScreenShot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		6126575C14F358AB00EEFE03 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6126575814F358AB00EEFE03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6126577214F358AB00EEFE03 /* ReversePonyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6126576C14F358AB00EEFE03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6126576D14F358AB00EEFE03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6126577314F358AB00EEFE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6126577414F358AB00EEFE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6126577614F358AB00EEFE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReversePony/ReversePony-Prefix.pch";
+				INFOPLIST_FILE = "ReversePony/ReversePony-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		6126577714F358AB00EEFE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReversePony/ReversePony-Prefix.pch";
+				INFOPLIST_FILE = "ReversePony/ReversePony-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6126575614F358AB00EEFE03 /* Build configuration list for PBXProject "ReversePony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6126577314F358AB00EEFE03 /* Debug */,
+				6126577414F358AB00EEFE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6126577514F358AB00EEFE03 /* Build configuration list for PBXNativeTarget "ReversePony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6126577614F358AB00EEFE03 /* Debug */,
+				6126577714F358AB00EEFE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6126575314F358AB00EEFE03 /* Project object */;
+}
